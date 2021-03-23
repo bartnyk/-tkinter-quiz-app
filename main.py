@@ -1,7 +1,6 @@
 from tkinter import *
 import requests
 from questions_db_api import GetQuestions
-from time import sleep
 
 CATEGORIES = requests.get("https://opentdb.com/api_category.php").json()
 

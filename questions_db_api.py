@@ -1,6 +1,5 @@
 import requests
 from html import unescape
-from time import sleep
 
 class GetQuestions:
     def __init__(self, params):
